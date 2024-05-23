@@ -1,5 +1,5 @@
 function checkAlliteration(){
-    var sentence = document.getElementById("alliter");
+    var sentence = document.getElementById("alliter"); // a js file to check alliteration
     var char = document.getElementById("char");
     if (!sentence || !char) {
         document.getElementById("result").innerHTML = "ERROR: One or more input fields are missing.";
